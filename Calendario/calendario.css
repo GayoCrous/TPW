@@ -1,0 +1,129 @@
+.event-container{
+    font-family: "Roboto", sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+p.ciclo{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+p.ciclo:hover{
+    
+}
+
+p.year{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(236, 229, 227);
+}
+
+
+.event-container .event{
+    box-shadow:  0 4px 16px -8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    border-radius: 8px;
+    margin: 32px 0;
+}
+
+.event .event-left {
+    background: rgb(223, 35, 35);
+    min-width:  82px;
+    display:  flex;
+    align-items:  center;
+    justify-content: center;
+    color: #eee;
+    padding:  9px 49px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+}
+
+.event .event-left .date {
+    font-size: 56px;
+}
+
+.event .event-left .month {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.event .event-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+}
+
+.event .event-right h3.event-title{
+    font-size: 24px;
+    margin: 24px 0 10px 0;
+    color: #5dbde9;
+    text-transform:  uppercase;
+}
+
+.event .event-right .event-timing{
+    background: #d8c9c9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 8px;
+    border-radius: 16px;
+    margin: 24px 0;
+    font-size: 14px;
+}
+
+.enlace{
+    background: #d8c9c9;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 24px 0;
+    font-size: 18px;
+    height: 15px;
+    padding-right: 9px;
+
+}
+
+.event .event-right .event-timing img{
+    height: 20px;
+    padding-right: 9px;
+}
+
+
+.enlace:hover{
+    font-weight: bolder;
+    font-size: 26px;
+    width: 250px;
+    text-shadow: 1px 1px 5px rgb(34, 34, 36);
+}
+
+
+@media (max-width: 500px){
+    .event{
+        flex-direction: column;
+    }
+    .event.event-left{
+        padding:0;
+        border-radius: 8px 8px 0 0;
+    }
+    .event .event-left .event-date .date,
+    .event .event-left .event-date .month{
+        display: inline-block;
+        font-size: 24px;
+    }
+    .event .event-left .event-date{
+        padding: 10px;
+    }
+}

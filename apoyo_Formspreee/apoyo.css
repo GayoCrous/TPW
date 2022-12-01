@@ -1,0 +1,97 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body{
+background-image: url('apoyo.jpg');
+    
+}
+
+.container{
+width: 400px;
+background:crimson;
+padding:30px;
+margin-top: 100px;
+border-radius: 7px;
+/*font-family: 'Helvetica';*/
+color:white;
+/*POSITION*/
+justify-content: center;
+position:absolute;
+top:40%;
+left:50%;
+transform: translate(-50%,-50%);
+box-shadow: 7px 13px 37px #000;
+}
+
+.container h2{
+font-size: 30px;
+margin-bottom: 24px;
+    
+}
+
+.container h3{
+    font-size: 22px;
+    margin-bottom: 4px;
+        
+    }
+
+.controls, .controls1{
+width: 100%;
+background:azure;
+padding: 9px;
+border-radius: 4px;
+margin-bottom: 16px;
+border:1px solid #C70039;
+font-family: 'cantarell';
+font-size: 17px;
+
+}
+
+.controls3{
+width: 100%;
+background:azure;
+border-radius: 4px;
+margin-bottom: 16px;
+border:1px solid #C70039;
+font-family: 'cantarell';
+font-size: 17px;
+padding:30px;
+}
+
+.botons{
+width: 100%;
+border:1px solid #C70039;
+border-radius: 3px;
+padding: 12px;
+margin: 10px 0px;
+font-family: 'cantarell';
+font-size: 17px;
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
